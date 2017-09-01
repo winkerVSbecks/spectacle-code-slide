@@ -59,7 +59,7 @@ class CodeSlide extends React.Component {
   static propTypes = {
     lang: PropTypes.string.isRequired,
     code: PropTypes.string.isRequired,
-    style: PropTypes.obj,
+    style: PropTypes.object,
     ranges: PropTypes.arrayOf(
       PropTypes.shape({
         loc: PropTypes.arrayOf(PropTypes.number).isRequired,
